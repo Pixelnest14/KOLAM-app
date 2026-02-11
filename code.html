@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kolam Studio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#3713ec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#131022",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="flex flex-col min-h-screen justify-between">
+<div class="flex-grow">
+<header class="flex items-center justify-between p-4">
+<div class="w-12"></div>
+<h1 class="text-lg font-bold">Kolam Studio</h1>
+<button class="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 dark:bg-primary/20 text-primary">
+<span class="material-symbols-outlined">
+                        settings
+                    </span>
+</button>
+</header>
+<main class="px-4 pb-8">
+<div class="text-center pt-8 pb-6">
+<h2 class="text-3xl font-extrabold tracking-tight">Welcome to Kolam Studio</h2>
+<p class="mt-2 text-base text-gray-600 dark:text-gray-400">Explore the art of Kolam design. Create your own patterns or browse our gallery for inspiration.</p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="aspect-square bg-cover bg-center rounded-xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBrQa4AsQ-fDPST752AnWJASr-gP0jeW02fA5d4s7NQvyGGkTjmJ6XKaBwkad6jeLRN1AdZUnRyEgXNp2enGlV6GSL9Et7cIHE4S8moLdAOqvZFISFbu_XmsyYg3v2ThlZ3dyO-fsDiGj0ebn2h0QbHKFhkuEGFLzGAdIqTksAaSmfjbo2Cxc76-OrKjQNVqHzZ6UqCuZXzrpOLKEA2sVtIHYpZkh-b1jK2JW6mER7rMJ9UsxfVpn0gyVXrKSM5wIpichwa35HDiRQ");'></div>
+<div class="aspect-square bg-cover bg-center rounded-xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBk7SuNejwWzplMInrCG8MJC62h4bae1G6FeuX1IqxH3vYBFTm82PNbfZnGMHRC9EbrXksffzhjaOCPROcFtW8wMQn9qOu74P8TpJeGIELTMwBPW4AcaNNAJpa_4PEYT5exeJV53k6g13vCUi6SfVh3hvJS66UYyELUX1mgRxGPvUzSIK8CVcke9rddnULyAkLGQbemmVKdTwJ47z89zFvhVNUGhDRCS2jWXWn3K4a10lVTpzalNHuwDmQdmbU13vJYiNA2OiHhqSM");'></div>
+<div class="aspect-square bg-cover bg-center rounded-xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDmDVGVAJgd1iHU0H-mw26Jc7Yj8QmZ_H_Fu8vFAV5PVsiPHssaDEnTbDoiadEO3TAIMv-exLAWmbQvXYXX3LIUVNNw1fWF4DrLwVYcdm3-S2Y6oUblF11h-RV6-5IXieHoeei0xL13oiX4soO2yshNRd7unJxChTiFpNR5XesLvbMMV4zBOdke3xHdcNw_MxehVfMJSgQ_8nZT25bWUYw_KOOYEddz6vxn6yUG9NAHRJnlxTnPOjuKVDQjhd36xqlL7IL20uu_HXs");'></div>
+<div class="aspect-square bg-cover bg-center rounded-xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCFqu_iXkLU8P77cFY5Azj6VansFQU6Wb25IulgzF4hTs93YweHZlXP_dpsq1Wv49lJLLgFovQHlMbgVOp6jcTYp3n54yy--IfCCQ7cDGrD71gJL91Mrw5xwBPH8onQzjUvAXOL3E7tTbuPW2OV0k_CplTkeBJ2hfyMEHj5Q7Co8WIRE1Bl7wDXVTh2dr77oKpMzDR7vcMPXsUDm9pG1MeMfD3ooa6AV7RFDKLgoQP7mm2eok0VvwepbVQ6WtRnlX-S3h1--athNhA");'></div>
+</div>
+<div class="mt-8 space-y-3">
+<button class="w-full h-12 bg-primary text-white font-bold rounded-lg flex items-center justify-center">
+                        Start Designing
+                    </button>
+<button class="w-full h-12 bg-primary/20 dark:bg-primary/30 text-primary font-bold rounded-lg flex items-center justify-center">
+                        Browse Gallery
+                    </button>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-lg border-t border-gray-200 dark:border-gray-800">
+<nav class="flex justify-around items-center h-20 px-2 pb-safe-area-bottom">
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined !text-3xl">home</span>
+<span class="text-xs font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400" href="#">
+<span class="material-symbols-outlined !text-3xl">edit</span>
+<span class="text-xs font-medium">Design</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400" href="#">
+<span class="material-symbols-outlined !text-3xl">photo_library</span>
+<span class="text-xs font-medium">Gallery</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400" href="#">
+<span class="material-symbols-outlined !text-3xl">settings</span>
+<span class="text-xs font-medium">Settings</span>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>
